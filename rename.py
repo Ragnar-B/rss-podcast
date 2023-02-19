@@ -7,5 +7,5 @@ def main(path, rss):
             episode_mp3 = id.id + ".mp3"
             title_mp3 = id.title + ".mp3"
             if file == episode_mp3:
-                os.rename(episode_mp3, title_mp3)
+                os.rename(path + episode_mp3, path + title_mp3)
                 print(f"Renamed {episode_mp3} to {title_mp3}.")
