@@ -1,4 +1,3 @@
-import feedparser
 import os
 
 def main(path, rss):
