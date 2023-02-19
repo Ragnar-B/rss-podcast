@@ -1,5 +1,4 @@
 import feedparser
-import os
 
 from rename import main
 
