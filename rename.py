@@ -1,6 +1,6 @@
 import os
 
-def main(path, rss):
+def rename(path, rss):
     for episode in range(0, len(rss.entries) -1):
         id = rss.entries[episode]
         for file in os.listdir(path):

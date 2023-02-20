@@ -1,9 +1,9 @@
 import feedparser
 import os
-from rename import main
+from rename import rename
 
 #Environment Variables
 path  = os.environ[path]
 rss = feedparser.parse("os.environ[rss]")
 
-main(path, rss)
+rename(path, rss)
